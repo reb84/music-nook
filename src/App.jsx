@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import SearchBar from "./components/SearchBar/SearchBar";
 import SearchResults from "./components/SearchResults/SearchResults";
 import PlaylistSection from "./components/PlaylistSection/PlaylistSection";
+import Footer from "./components/Footer/Footer";
 import SpotifyAuth from "./utils/SpotifyAuth";
 import { searchTracks, savePlaylistToSpotify } from "./utils/SpotifyAPI";
 import "./App.css";
@@ -101,7 +102,6 @@ function App() {
         </header>
 
         <div className="main-content">
-
           <div className="search-section">
             <SearchBar onSearch={handleSearch} />
 
@@ -112,7 +112,6 @@ function App() {
               isSearching={isSearching} // Add this prop
             />
           </div>
-
 
           <div className="playlist-section">
             <PlaylistSection
@@ -125,6 +124,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

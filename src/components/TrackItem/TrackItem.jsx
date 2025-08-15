@@ -1,4 +1,3 @@
-import React from "react";
 import { Music, Plus, Trash2 } from "lucide-react";
 import "./TrackItem.css";
 

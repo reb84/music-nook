@@ -1,4 +1,3 @@
-import React from "react";
 import TrackItem from "../TrackItem/TrackItem";
 import { Search, Music } from "lucide-react";
 import "./SearchResults.css";

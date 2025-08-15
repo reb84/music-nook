@@ -1,21 +1,28 @@
 # 🎶 musicNook
 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)
+
+![Screenshot](public/screenshot.png)
+
+✨ [LIVE DEMO](https://music-nook.vercel.app/)
+
 A responsive web app built with React and Vite that lets you log into Spotify, search for tracks, and create your own playlists.
 
-## 🌐 Try It Out
-
-👉 [Launch the App](https://music-nook.vercel.app/)
+---
 
 Log in with your Spotify account to start searching for tracks and building your playlist.
 
 🔐 Spotify Login required
 
-🔎 Search for songs
+## ☑️ Features
 
-📄 Save custom playlists to your account
+- 🔎 Search for songs
+- 📄 Save custom playlists to your account
+- 📱 Works great on mobile
 
-📱 Works great on mobile
+## 🔮 Future improvements
 
-## ✨ Coming Soon (maybe)
-
-▶️ Track previews so you can listen before adding
+- ▶️ Track previews so you can listen before adding

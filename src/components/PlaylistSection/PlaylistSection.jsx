@@ -1,4 +1,3 @@
-import React from "react";
 import TrackItem from "../TrackItem/TrackItem";
 import { Play, Save } from "lucide-react";
 import "./PlaylistSection.css";
